@@ -54,7 +54,9 @@ import java.util.Scanner;
    public static void main(String args[]) {
 		int n;				
 		Scanner s = new Scanner(System.in);
-		System.out.print("Enter no. of elements you want in array:");
+	
+      try {
+	      	System.out.print("Enter no. of elements you want in array:");
        n = s.nextInt();
        int m = n-1; //used in last line
 		int num [] = new int [n];						
@@ -64,7 +66,6 @@ import java.util.Scanner;
       System.out.println("Elements in the array are:: ");
       System.out.println(Arrays.toString(num));     
       System.out.println("Enter the index of the required element ::");
-      try {
          int element = s.nextInt();
          System.out.println("Element in the given index is :: "+num[element]);
       } catch(Exception e) {
