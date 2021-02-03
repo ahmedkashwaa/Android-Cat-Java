@@ -1,5 +1,5 @@
 import java.util.Scanner;
- class task_2 {
+ //class task_2 {
 	static  int r;
 	static	int h;
 	static double pie=3.14;
